@@ -1,0 +1,118 @@
+.dashboard-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-design-btn {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .create-design-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .empty-state {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .designs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .design-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .design-card:hover {
+    border-color: #4CAF50;
+  }
+  
+  .design-thumbnail {
+    width: 100%;
+    height: 200px;
+    background-color: #ececec;
+  }
+  
+  .design-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .thumbnail-placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+  }
+  
+  .design-info {
+    padding: 15px;
+  }
+  
+  .design-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .design-description {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .design-date {
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  .design-card {
+    position: relative;
+    width: 300px;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .download-buttons {
+    display: flex;
+    gap: auto;
+    margin-top: 10px;
+  }
+  
+  .download-buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .download-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
